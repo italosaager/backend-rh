@@ -11,6 +11,4 @@ import java.util.List;
 public interface VagaRepository extends JpaRepository<Vaga, Long> {
     @Query("SELECT v.nome, v.cidade, tv.nome FROM Vaga v INNER JOIN v.tipoVaga tv")
     List<Object[]> findVagasWithTipoVaga();
-
-
 }

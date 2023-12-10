@@ -1,6 +1,5 @@
 package com.backendrh.Backend.RH.service;
 
-import com.backendrh.Backend.RH.model.Vaga;
 import com.backendrh.Backend.RH.repository.VagaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
